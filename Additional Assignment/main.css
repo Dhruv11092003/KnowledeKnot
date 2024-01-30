@@ -4,6 +4,7 @@
     background: rgb(34, 45, 195);
     background: linear-gradient(0deg, rgba(34, 45, 195, 1) 0%, rgba(177, 38, 210, 0.9612219887955182) 100%);
 }
+
 .top-container{
     color: whitesmoke;
     padding: 10px;
@@ -32,6 +33,7 @@
     text-decoration:none;
     border-radius: 10px;
     font-weight: 600;
+    border:2px solid yellow;
 }
 .top-container-anchors:hover{background-color:yellow;}
 
@@ -123,3 +125,85 @@ span{
    0% {opacity:0;} 
    100% {opacity:1;} 
 }
+
+/* Explore Page */
+
+
+.top-container-anchor-container-explore{
+    margin-left: 75%;
+}
+.top-container-anchors{
+    max-width: max-content;
+    background-color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 1vh;
+    color:black;
+    text-decoration:none;
+    border-radius: 10px;
+    font-weight: 600;
+    height: fit-content;
+}
+.top-container-anchors:hover{background-color:yellow;}
+
+.explore_search{
+    width: 70vw;
+    height: 6vh;
+    border-radius: 15px;
+    border:2px solid yellow;
+    margin-left: 5%;
+    
+    padding-left: 1.5%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search{
+    position: relative;
+    top:2vh;
+    right:3.5%;
+    font-size: large;
+    
+}
+.explore-heading{
+    font-weight: 900;
+    color: white;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+.Background2 {
+    height:fit-content;
+    width: 100vw;
+    background: rgb(34, 45, 195);
+    background: linear-gradient(0deg, rgba(34, 45, 195, 1) 0%, rgba(177, 38, 210, 0.9612219887955182) 100%);
+}
+.explore-results{
+    border: 2px solid white;
+    height: 90vh;
+    width: 90vw;
+    margin-left: 4%;
+}
+.dropdown{
+    border-radius: 20px;
+    /* border:2px solid yellow; */
+    /* padding-left: 1.5%; */
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    /* background-color: white; */
+}
+
+#youtubeContainer .thumbnail {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+  }
+  
+  #youtubeContainer  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
