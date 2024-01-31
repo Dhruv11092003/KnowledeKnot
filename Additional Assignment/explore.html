@@ -13,13 +13,12 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/2904321924.js" crossorigin="anonymous"></script>
     <title>Explore</title>
 </head>
-<body class="Background2">
-    <div>
+<body>
+    <div class="Background2">
         <div class="top-container d-flex flex-row justify-content-start">
-            <h1 class="top-container-heading">KnowledgeKnot</h1>
+            <h1 class="top-container-heading ">KnowledgeKnot</h1>
             <div class="pt-1 top-container-anchor-container-explore">
                 <a class="top-container-anchors " href="./main.html" target="_self">Back</a>
             </div>
@@ -28,27 +27,25 @@
             <h1 class="explore-heading">Explore To <span>Learn!</span></h1>
         </div>
         <div class="d-flex flex-row justify-content-center">
-        <div class="d-flex flex-row justify-content-center">
-            <input class="explore_search" id="explore" placeholder="Type here for exploring...">
-            <i class="fa-solid fa-magnifying-glass search" for="explore"></i>
+                <div class="d-flex flex-row justify-content-center">
+                    <input class="explore_search" id="explore" placeholder="Type here for exploring...">
+                    <i class="fa-solid fa-magnifying-glass search" for="explore"></i>
+                </div>
         </div>
-        <!-- Example single danger button -->
-        <div class="btn-group dropdown">
-            <button class="btn dropdown-toggle" style="color: white;" data-bs-toggle="dropdown" aria-expanded="true">
-            Platform
-            </button>
-            <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Youtube</a></li>
-            <li><a class="dropdown-item" href="#">Udemy</a></li>
-            <li><a class="dropdown-item" href="#">Blogs</a></li>
-            <!-- <li><hr class="dropdown-divider"></li> -->
-            
-            </ul>
+        <div class="d-none  d-flex justify-content-center mt-5" id="spinner">
+            <div class=" spinner-border  text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
         </div>
-    </div>
-    </div>
-    <div class="d-flex flex-row justify-content-center explore-results">
-        <div id="youtubeContainer">
+        <div class="display-div  mt-3" >
+            <div id="youtubeContainer" class="youtube-container">
+                <h1 style="text-align: center;"><Span>Videos</Span></h1>
+                <p style="text-align: center;color:yellow;font-weight:600;" id="paraEl">Your Videos will display here...</p>
+            </div>
+            <div id="bookContainer" class="book-container">
+                <H1 style="text-align: center;"><Span>Books</Span></H1>
+                <p style="text-align: center;color:yellow;font-weight:600;" id="paraEl2">Your Books will display here...</p>
+            </div>
         </div>
     </div>
     <script src="./main.js"></script>
